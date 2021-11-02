@@ -47,7 +47,24 @@ display: inline-block;
     max-height: max-content;
 }
 .dogs button{
+    font-size: 18px;
     padding:20px;
-    background-color: navy;
+    background-color: rgb(105, 19, 105);
+    position: relative;bottom: 250px; left: 180px;
     
+}
+.more-info{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(163, 159, 155);
+    padding: 40px;
+    
+}
+.more-info p{
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
 }
