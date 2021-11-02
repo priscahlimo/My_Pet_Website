@@ -1,0 +1,21 @@
+html{
+    margin: auto;
+    padding: 0px;
+    height: 100vh;
+}
+#navbar{
+    display: flex;
+    }
+.logo{
+
+}
+.social{
+    display: flex;
+    float: right;
+}
+.social ul li{
+list-style: none;
+padding:10px 30px;
+display:inline-block;
+position:relative;
+}
