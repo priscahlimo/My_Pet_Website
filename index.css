@@ -66,5 +66,11 @@ display: inline-block;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-
+.more-info button{
+    padding: 25px 55px;
+    margin-right: 60px;
+    font-size: 25px;
+    text-decoration: transparent;
+    background-color: royalblue;
+}
 }
