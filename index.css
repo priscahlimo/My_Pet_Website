@@ -6,6 +6,7 @@ html{
 #navbar{
     display: flex;
     justify-content: space-between;
+    background-color: lightcoral;
     }
 .social{
     display: flex;
@@ -23,6 +24,30 @@ padding:10px 30px;
 position:relative;
 display: inline-block;
 }
+#description{
+    display:flex;
+    justify-content: space-between;
+}
 .about{
+    display:flex;
+    float: right;
+    justify-content: space-between;
+    
+}
+.about ul li{
+    list-style: none;
+    padding:10px 30px;
+    position:relative;
+    display: inline-block; 
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.dogs image{
+    max-height: max-content;
+}
+.dogs button{
+    padding:20px;
+    background-color: navy;
     
 }
