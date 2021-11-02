@@ -101,4 +101,20 @@ display: inline-block;
     background-color: yellow;
     padding: 40px;
 }
+.subscribe{
+    float: right;
+    position: relative; bottom: 320px;
+    justify-content: center;
+    
+}
+.subscribe p{
+    font-size: 16px;
+}
+.subscribe button{
+    padding: 20px 30px;
+    margin-top: 20px;
+}
+
+
+
 
