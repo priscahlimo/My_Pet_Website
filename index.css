@@ -2,6 +2,7 @@ html{
     margin: auto;
     padding: 0px;
     height: 100vh;
+
 }
 #navbar{
     display: flex;
@@ -44,7 +45,8 @@ display: inline-block;
     font-size: 17px;
 }
 .dogs image{
-    max-height: max-content;
+
+    background-size: contain;
 }
 .dogs button{
     font-size: 18px;
@@ -103,18 +105,26 @@ display: inline-block;
 }
 .subscribe{
     float: right;
-    position: relative; bottom: 320px;
+    position: relative; bottom: 420px;
     justify-content: center;
+    margin-right: 80px;
+    
     
 }
 .subscribe p{
-    font-size: 16px;
+    font-size: 26px;
 }
 .subscribe button{
     padding: 20px 30px;
     margin-top: 20px;
 }
-
+.subscribe .email{
+    margin: 20px;
+}
+.subscribe h4{
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 
 
